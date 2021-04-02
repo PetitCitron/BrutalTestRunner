@@ -20,8 +20,9 @@
 /**
  * This PHP lib provide a brutal and minimalist way to test lib for minimalist projet
  *
- * Contact: https://github.com/PetitCitron  @PetitCitron
- * WWW:     https://osd.ovh
+ * Contact:         https://github.com/PetitCitron  @PetitCitron
+ * Contrib Src:     https://github.com/PetitCitron/BrutalTestRunner
+ * WWW:             https://osd.ovh
  */
 
 # Configure
