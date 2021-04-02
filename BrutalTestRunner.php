@@ -20,19 +20,8 @@
 /**
  * This PHP lib provide a brutal and minimalist way to test lib for minimalist projet
  *
- * By hashing the IP address with page name as salt, you prevent yourself from
- * being able to track a user as they navigate your site. You also prevent
- * yourself from being able to recover anyone's IP address without brute forcing
- * through all of the assigned IP address blocks in use by the internet.
- *
  * Contact: https://github.com/PetitCitron  @PetitCitron
  * WWW:     https://osd.ovh
- *
- * USAGE:
- *        In your script, use reqire_once() to import this script, then call the
- *        functions like PHPCount::AddHit(...); See each function for help.
- *
- * NOTE: You must set the database credentials in the InitDB method.
  */
 
 # Configure
