@@ -11,7 +11,7 @@ Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tu
 ```php
 btrHeader(<test_name>) // print header in out
 btrAssertEq(<epxected_val>, <tested_val>, <info_msg>, <strict_mode_test_bool>) // Assert Equals
-btrHeader() // print result in out and correct exit() code
+btrFooter() // print result in out and correct exit() code
 ```
 
 ## How To use ?
