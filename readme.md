@@ -26,11 +26,11 @@ require 'BrutalTestRunner.php'; // include lib file
 btrHeader(__FILE__); // if you want pretty header in terminal
 
 btrAssertEq(true, true, 'true == true'); // Only assertEqual test, it's minimalist
-btrAssertEq(true, is_file(__FILE__), 'script is file'); // Only assertEqual test, it's minimalist
+btrAssertEq(true, is_file(__FILE__), 'script is file');
 btrAssertEq(true, false, 'true == false', true);
-btrAssertEq(1, '1', "1 === '1'", false); // assertEqual wihtout strict mode (default)
-btrAssertEq(1, '1', "1 === '1' strict", true); // assertEqual wiht strict mode
-btrAssertEq(true, 1, "true === 1 strict", true); // assertEqual wiht strict mode
+btrAssertEq(1, '1', "1 === '1'", false); // assertEqual no strict mode (default)
+btrAssertEq(1, '1', "1 === '1' strict", true); // assertEqual with strict mode
+btrAssertEq(true, 1, "true === 1 strict", true); // assertEqual with strict mode
 
 btrFooter(); // if you want pretty footer n terminal AND good exit code success/fail
 ```
