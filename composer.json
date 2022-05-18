@@ -1,0 +1,20 @@
+{
+  "name": "petitcitron/lightlogger",
+  "description": "Minimalist PHP test runner Brutal dev design",
+  "type": "library",
+  "license": "MIT license",
+  "authors": [
+    {
+      "name": "PetitCitron"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "\\petitcitron\\brutaltestrunner\\": "src/"
+    },
+    "files": [
+      "src/BrutalTestRunner.php"
+    ]
+  }
+}
