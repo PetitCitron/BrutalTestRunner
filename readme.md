@@ -26,7 +26,9 @@ As a Lib, Add in composer.json
 }
    ],
 ```
-
+```sh
+composer update
+```
 
 ## Testing
 
