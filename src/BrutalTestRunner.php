@@ -2,7 +2,9 @@
 
 namespace PetitCitron\BrutalTestRunner;
 
-
+/*
+ * Main
+ */
 class BrutalTestRunner
 {
     public bool $debug = false;
