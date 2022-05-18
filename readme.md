@@ -31,9 +31,9 @@ As a Lib, Add in composer.json
 
 
 ```sh
-wget https://github.com/PetitCitron/BrutalTestRunner/archive/refs/tags/v2.0.3.zip
-unzip v2.0.3.zip
-cd BrutalTestRunner-2.0.3/
+wget https://github.com/PetitCitron/BrutalTestRunner/archive/refs/tags/v2.0.4.zip
+unzip v2.0.4.zip
+cd BrutalTestRunner-2.0.4/
 composer install --no-dev
 ```
 
@@ -41,7 +41,7 @@ As a Lib, Add in composer.json
 
 ```json
 "require-dev": {
-    "petitcitron/brutaltestrunner": "v2.0.3"
+    "petitcitron/brutaltestrunner": "v2.0.4"
   },
 "repositories": [
 {
