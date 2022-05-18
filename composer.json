@@ -2,7 +2,7 @@
   "name": "petitcitron/brutaltestrunner",
   "description": "Minimalist PHP test runner Brutal dev design",
   "type": "library",
-  "license": "MIT license",
+  "license": "MIT",
   "authors": [
     {
       "name": "PetitCitron"

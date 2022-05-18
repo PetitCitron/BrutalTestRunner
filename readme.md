@@ -4,11 +4,53 @@ Minimalist PHP test runner.
 
 Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tuxfamily.org/brutalisme.html)
 
-## Install
+## Install unstable
 
+ 
 ```sh
+git clone git@github.com:PetitCitron/BrutalTestRunner.git
+cd BrutalTestRunner
 composer install --no-dev
 ```
+
+As a Lib
+
+```json
+"require-dev": {
+    "petitcitron/brutaltestrunner": "dev-main"
+  },
+"repositories": [
+{
+  "type": "vcs",
+  "url": "https://github.com/PetitCitron/BrutalTestRunner"
+}
+   ],
+```
+
+## Stable
+
+
+```sh
+wget https://github.com/PetitCitron/BrutalTestRunner/archive/refs/tags/v2.0.3.zip
+unzip v2.0.3.zip
+cd BrutalTestRunner-2.0.3/
+composer install --no-dev
+```
+
+As a Lib
+
+```json
+"require-dev": {
+    "petitcitron/brutaltestrunner": "v2.0.3"
+  },
+"repositories": [
+{
+  "type": "vcs",
+  "url": "https://github.com/PetitCitron/BrutalTestRunner"
+}
+   ],
+```
+
 ## Testing
 
 ```sh
