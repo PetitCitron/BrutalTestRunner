@@ -13,7 +13,7 @@ cd BrutalTestRunner
 composer install --no-dev
 ```
 
-As a Lib
+As a Lib, Add in composer.json
 
 ```json
 "require-dev": {
@@ -37,7 +37,7 @@ cd BrutalTestRunner-2.0.3/
 composer install --no-dev
 ```
 
-As a Lib
+As a Lib, Add in composer.json
 
 ```json
 "require-dev": {
