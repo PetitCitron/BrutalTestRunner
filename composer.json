@@ -1,5 +1,5 @@
 {
-  "name": "petitcitron/lightlogger",
+  "name": "petitcitron/brutaltestrunner",
   "description": "Minimalist PHP test runner Brutal dev design",
   "type": "library",
   "license": "MIT license",
