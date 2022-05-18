@@ -4,7 +4,7 @@ Minimalist PHP test runner.
 
 Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tuxfamily.org/brutalisme.html)
 
-## Install unstable
+## Install
 
  
 ```sh
@@ -17,7 +17,7 @@ As a Lib, Add in composer.json
 
 ```json
 "require-dev": {
-    "petitcitron/brutaltestrunner": "dev-main"
+    "petitcitron/brutaltestrunner": "^2"
   },
 "repositories": [
 {
@@ -27,29 +27,6 @@ As a Lib, Add in composer.json
    ],
 ```
 
-## Stable
-
-
-```sh
-wget https://github.com/PetitCitron/BrutalTestRunner/archive/refs/tags/v2.0.4.zip
-unzip v2.0.4.zip
-cd BrutalTestRunner-2.0.4/
-composer install --no-dev
-```
-
-As a Lib, Add in composer.json
-
-```json
-"require-dev": {
-    "petitcitron/brutaltestrunner": "v2.0.4"
-  },
-"repositories": [
-{
-  "type": "vcs",
-  "url": "https://github.com/PetitCitron/BrutalTestRunner"
-}
-   ],
-```
 
 ## Testing
 
