@@ -1,6 +1,7 @@
 <?php
 
-use petitcitron\brutaltestrunner\BrutalTestRunner;
+
+use PetitCitron\BrutalTestRunner\BrutalTestRunner;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 

@@ -7,9 +7,14 @@ Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tu
 ## Install
 
 ```sh
-composer install
+composer install --no-dev
 ```
+## Testing
 
+```sh
+composer install
+php7.4  tests/test.php
+```
 
 ## Simple - only 3 methods :
 
@@ -27,7 +32,7 @@ Exemple of tests :
 ```php 
 <?php
 
-use petitcitron\brutaltestrunner\BrutalTestRunner;
+use PetitCitron\BrutalTestRunner\BrutalTestRunner;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 

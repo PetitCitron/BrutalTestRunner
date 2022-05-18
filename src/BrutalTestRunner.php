@@ -1,6 +1,6 @@
 <?php
 
-namespace petitcitron\brutaltestrunner;
+namespace PetitCitron\BrutalTestRunner;
 
 
 class BrutalTestRunner

@@ -11,10 +11,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "\\petitcitron\\brutaltestrunner\\": "src/"
-    },
-    "files": [
-      "src/BrutalTestRunner.php"
-    ]
+      "PetitCitron\\BrutalTestRunner\\": "src/"
+    }
   }
 }
