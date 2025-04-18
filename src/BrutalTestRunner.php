@@ -77,18 +77,22 @@ class BrutalTestRunner
     /**
      * Out script with summary and good exit code
      */
-    public function footer(): void
+    public function footer($exit=true): void
     {
         print "\n-----------\n";
         if ($this->tests_failed_count) {
             print '✖ [FAILED] ';
             print "$this->tests_failed_count fails, $this->tests_success_count success, $this->tests_count total ";
-            exit(1);
+            if ($exit) {
+                exit(1);
+            }
         }
         else {
             print '✔ [SUCCESS] ';
             print "$this->tests_failed_count fails, $this->tests_success_count success, $this->tests_count total ";
-            exit(0);
+            if ($exit) {
+                exit(0);
+            }
         }
     }
 }
