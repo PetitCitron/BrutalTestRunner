@@ -19,6 +19,7 @@ $btr = new BrutalTestRunner();
 $btr->header(<test_name>) // print header in out
 $btr->assertEqual(<expected_val>, <tested_val>, <info_msg>, <strict_mode_test_bool>) // Assert Equals
 $btr->footer() // print result in out and correct exit() code
+$tester->footer(exit: false); // OR if you don't want exit() script at the end
 ```
 
 ## How To use ?
