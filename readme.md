@@ -8,34 +8,9 @@ Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tu
 
  
 ```sh
-git clone git@github.com:PetitCitron/BrutalTestRunner.git
-cd BrutalTestRunner
-composer install --no-dev
+composer require --dev petitcitron/brutaltestrunner
 ```
 
-As a Lib, Add in composer.json
-
-```json
-"require-dev": {
-    "petitcitron/brutaltestrunner": "^2"
-  },
-"repositories": [
-{
-  "type": "vcs",
-  "url": "https://github.com/PetitCitron/BrutalTestRunner"
-}
-   ],
-```
-```sh
-composer update
-```
-
-## Testing
-
-```sh
-composer install
-php7.4  tests/test.php
-```
 
 ## Simple - only 3 methods :
 
@@ -119,4 +94,10 @@ FOUND :
 '1'
 ---------------
 Tests FAILED
+```
+## Testing
+
+```sh
+composer install
+php7.4  tests/test.php
 ```
