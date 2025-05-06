@@ -8,7 +8,7 @@ Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tu
 
  
 ```sh
-composer require --dev petitcitron/brutaltestrunner
+composer require --dev osd84/brutaltestrunner
 ```
 
 
