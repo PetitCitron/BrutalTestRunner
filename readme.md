@@ -11,6 +11,7 @@ Is a BRUTAL DEV DESIGNED APP -> idea from [@4uto3!o6r4mm](http://autobiogramm.tu
 composer require --dev osd84/brutaltestrunner
 ```
 
+![screen.png](screen.png)
 
 ## Simple - only 3 methods :
 
