@@ -1,6 +1,6 @@
 <?php
 
-namespace PetitCitron\BrutalTestRunner;
+namespace osd84\BrutalTestRunner;
 
 /*
  * Main
